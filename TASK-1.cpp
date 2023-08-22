@@ -1,5 +1,5 @@
-                        //TASK-1
-                //NUMBER GUESSING GAME
+  //TASK-1
+  //NUMBER GUESSING GAME
 #include <iostream>
 #include <cstdlib>
 using namespace std;
@@ -17,10 +17,10 @@ while(guess!=random_int){
   cin>> guess;
 
   if(guess>random_int){
-    cout<<"Your guess is too high!!\n";
+    cout<<"Your guess is high!!\n";
   }
    else if(guess<random_int){
-    cout<<"your guess is too Low!!\n";
+    cout<<"your guess is Low!!\n";
   }
    
    else{
